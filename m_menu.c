@@ -1784,6 +1784,10 @@ void M_Drawer (void)
     x = currentMenu->x;
     y = currentMenu->y;
     max = currentMenu->numitems;
+    // Hack to make shareware doom1.wad work (EpiDef lists four episodes but doom1.was has only
+    // three).
+    if (shareware && currentMenu == &EpiDef)
+       max = max - 1;
 
     for (i=0;i<max;i++)
     {
