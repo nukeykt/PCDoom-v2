@@ -1,3 +1,8 @@
+# As of 02-05-2022 PCDoom-v2 is succeeded by the gamesrc-ver-recreation project
+https://bitbucket.org/gamesrc-ver-recreation/doom
+
+https://bitbucket.org/gamesrc-ver-recreation/strife
+
 # PCDoom-v2
 Doom port for DOS
 
